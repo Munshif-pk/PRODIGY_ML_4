@@ -34,7 +34,7 @@ def read_image():
                         shape_data.append(x)
                         shape_data.append(y)
                     
-                    if len(shape_data) == 42:  # Check if all 42 coordinates are present
+                    if len(shape_data) == 42:  # 21*2 
                         hand_landmarks_data.append(shape_data)
                         label.append(category)
                     else:
